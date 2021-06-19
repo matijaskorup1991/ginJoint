@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './Nav.scss';
 
@@ -8,19 +8,19 @@ const Nav: React.FC = () => {
     <nav>
       <ul>
         <li>
-          <Link to='/'>HOME</Link>
+          <NavLink to='/'>HOME</NavLink>
         </li>
         <li>
-          <Link to='/entertainment'>ENTERTAINMENT</Link>
+          <NavLink to='/entertainment'>ENTERTAINMENT</NavLink>
         </li>
         <li>
-          <Link to='/shop'>SHOP</Link>
+          <NavLink to='/shop'>SHOP</NavLink>
         </li>
         <li>
-          <Link to='/events'>EVENTS</Link>
+          <NavLink to='/events'>EVENTS</NavLink>
         </li>
         <li>
-          <Link to='/contact'>CONTACT</Link>
+          <NavLink to='/contact'>CONTACT</NavLink>
         </li>
       </ul>
     </nav>

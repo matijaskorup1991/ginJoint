@@ -1,4 +1,10 @@
 .events {
+  padding: 10vh 3vw;
+  .event-text {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 10vh;
+  }
   div {
     display: flex;
     justify-content: space-between;

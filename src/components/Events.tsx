@@ -9,6 +9,11 @@ import './Events.scss';
 const Events: React.FC = () => {
   return (
     <div className='events'>
+      <p className='event-text'>
+        Due to COVID-19 and the temporary closing of Bathtub Gin, our nightly
+        entertainment is currently on pause. Stay tuned for updates on our
+        reopening date and new events, coming soon!
+      </p>
       <div>
         <Figure
           spanText="Jazz n' Jive"
