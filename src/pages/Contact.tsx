@@ -32,6 +32,7 @@ const Contact: React.FC = () => {
             <input type='text' placeholder='Name' />
             <input type='text' placeholder='Email Address' />
             <input type='text' placeholder='Mobile' />
+            <textarea id='textarea' cols={30} rows={10}></textarea>
           </form>
         </div>
       </div>

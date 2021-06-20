@@ -15,3 +15,26 @@
     }
   }
 }
+
+.contact-form {
+  background-color: #bb7043;
+  padding: 20vh 10vw;
+  h3 {
+    width: 60%;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  div {
+    width: 50%;
+  }
+  display: flex;
+  form {
+    input,
+    textarea {
+      display: block;
+      width: 75%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
