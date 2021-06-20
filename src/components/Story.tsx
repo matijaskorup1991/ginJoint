@@ -25,7 +25,7 @@ const Story: React.FC<Data> = ({
         <span>{buttonText}</span>
       </div>
       <div className='story-img-holder'>
-        <img src={imgSrc} alt='image' />
+        <img src={imgSrc} alt='story' />
       </div>
     </div>
   );

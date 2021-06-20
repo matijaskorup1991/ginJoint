@@ -20,6 +20,21 @@ const Contact: React.FC = () => {
           <h2>132 9TH AVENUE NEW YORK</h2>
         </div>
       </div>
+      <div className='contact-form'>
+        <div>
+          <p>Get in touch</p>
+          <h3>
+            132 9th Avenue New York, NY 100 11 646-559-1671 info@btgnyc.com
+          </h3>
+        </div>
+        <div>
+          <form>
+            <input type='text' placeholder='Name' />
+            <input type='text' placeholder='Email Address' />
+            <input type='text' placeholder='Mobile' />
+          </form>
+        </div>
+      </div>
     </div>
   );
 };

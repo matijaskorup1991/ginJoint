@@ -13,7 +13,7 @@ const Figure: React.FC<Data> = ({ imgSrc, caption, text, time, spanText }) => {
   return (
     <figure className='figure'>
       <div>
-        <img src={imgSrc} alt='image' />
+        <img src={imgSrc} alt='figure' />
         <span>{spanText}</span>
       </div>
       <figcaption>{caption}</figcaption>
