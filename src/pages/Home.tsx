@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Story from '../components/Story';
 import Events from '../components/Events';
+import Drinks from '../components/Drinks';
 
 import bar from '../assets/img/bar2.svg';
 import coctailst from '../assets/img/coctails.svg';
@@ -27,6 +28,7 @@ const Home: React.FC = () => {
         buttonText='See Menus'
         imgSrc={coctailst}
       />
+      <Drinks />
     </div>
   );
 };
