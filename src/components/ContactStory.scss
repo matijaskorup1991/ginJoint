@@ -1,7 +1,8 @@
-.story {
-  padding: 10vh 3vw 10vh 5vw;
+.contact-story {
+  //   padding: 10vh 3vw 10vh 5vw;
   display: flex;
   min-height: 100vh;
+  background-color: #bb7043;
   div:nth-of-type(1) {
     width: 50%;
     padding: 3rem 7vw 0 10vw;
@@ -14,19 +15,15 @@
     }
     p {
       font-size: 1.3rem;
-      color: #e5e5e5;
-    }
-    span {
-      display: inline-block;
+      color: black;
       padding: 0.5rem;
-      border: 1px solid black;
     }
   }
 }
 
-.story-img-holder {
+.contact-story-img-holder {
   width: 50%;
-  height: 80vh;
+  height: 100%;
   img {
     width: 100%;
     height: 100%;

@@ -8,7 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <Nav />
-      <Home />
+      <Switch>
+        <Route exact path='/' component={Home} />
+      </Switch>
       <Footer />
     </BrowserRouter>
   );

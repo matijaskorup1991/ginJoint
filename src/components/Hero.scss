@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
 .hero {
   background: url('../assets/img/Header.svg') no-repeat center/cover;
   padding: 30vh 0 0 0;
@@ -9,8 +11,10 @@
     font-size: 4rem;
     margin: 0;
     padding: 0;
+    font-family: 'Tinos', serif;
   }
   h1 {
     font-size: 7rem;
+    letter-spacing: 4px;
   }
 }
