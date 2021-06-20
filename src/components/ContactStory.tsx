@@ -1,7 +1,14 @@
 import React from 'react';
-import './ConntactStory.scss';
+import './ContactStory.scss';
 
-const ContactStory: React.FC = ({ about, imgSrc, heading, text }) => {
+interface Data {
+  about: string;
+  imgSrc: string;
+  heading: string;
+  text: string;
+}
+
+const ContactStory: React.FC<Data> = ({ about, imgSrc, heading, text }) => {
   return (
     <div className='contact-story'>
       <div>
@@ -10,7 +17,7 @@ const ContactStory: React.FC = ({ about, imgSrc, heading, text }) => {
         <p>{text}</p>
       </div>
       <div className='contact-story-img-holder'>
-        <img src={imgSrc} alt='image' />
+        <img src={imgSrc} alt='contact' />
       </div>
     </div>
   );

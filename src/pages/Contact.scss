@@ -1,0 +1,17 @@
+.contact-address {
+  min-height: 100vh;
+  background: url('../assets/img/address.svg') no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: 330px;
+    background-color: #bb7043;
+    padding: 2.5rem;
+    h2 {
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}
