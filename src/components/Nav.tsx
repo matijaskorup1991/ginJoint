@@ -10,7 +10,7 @@ const Nav: React.FC = () => {
     <nav>
       <ul>
         <li>
-          <NavLink activeStyle={style} to='/'>
+          <NavLink activeStyle={style} to='/home'>
             HOME
           </NavLink>
         </li>

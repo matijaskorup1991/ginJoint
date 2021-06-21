@@ -1,0 +1,21 @@
+.shop {
+  img {
+    display: block;
+  }
+  .stay-tuned {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bb7043;
+    h2 {
+      font-size: 4rem;
+      margin: 0;
+      padding: 0;
+    }
+    h2:nth-of-type(2) {
+      font-size: 5rem;
+    }
+  }
+}
