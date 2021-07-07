@@ -30,3 +30,12 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .drinks {
+    flex-direction: column;
+    span {
+      display: none;
+    }
+  }
+}
